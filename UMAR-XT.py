@@ -1,5 +1,5 @@
-#assalamowalikom OPEN source by Harry (Haris AKHTAR )
-#Fuck YATEEM kid AWAIS tahir 
+#assalamowalikom Command is by Umar (Mohammad Umar )
+#UMAR 
 fbks=('com.facebook.adsmanager','com.facebook.lite','com.facebook.orca','com.facebook.katana')
 g1=('A');g2=('K');g3=('I');g4=('N');g5=('G');g6=('1');g7=('1');g8=('0');pr=('-P');pr1=('R');pr2=('O')
 ghb=g1+g2+g3+g4+g5+g6+g7+g8
@@ -26,9 +26,9 @@ try:
 	from bs4 import BeautifulSoup as sop
 	from bs4 import BeautifulSoup
 except ModuleNotFoundError: 
-	print('\n Installing missing modules ...')
+	print('\n Checking For Updates ...')
 	os.system('pip install requests bs4 futures==2 > /dev/null')
-	os.system('python UMAR.py')
+	os.system('python UMAR-XT.py')
 android_models=[]
 try:
 	xx = requests.get('https://raw.githubusercontent.com/AKING110/Data/main/sm.txt').text.splitlines()
@@ -106,13 +106,16 @@ def uaku():
 	 
 
 logo=("""\033[1;32m
-        \033[1;32m ##     ##     ######      ######   
-        \033[1;32m ###   ###    ##    ##    ##    ##  
-        \033[1;32m #### ####    ##          ## 
-        \033[1;32m ## ### ##     ######      ######
-        \033[1;32m ##     ##          ##          ##
-        \033[1;32m ##     ##    ##    ##    ##    ##
-        \033[1;32m ##     ##     ######      ###### 
+\033[1;31m ____  ‘      '                ____‚       ___°             ___      
+\033[1;32m|\¯¯¯'\  ___'   _____    /¯¯¯¯\     /¯¯¯/|__„   ___|\¯¯¯\    
+\033[1;33m'\|      ||\¯¯¯\°|\¯¯¯¯¯'\/  /|\    ' \‚‚'/    ' /\¯¯¯\°|¯¯¯¯|\     \‚  
+\033[1;34m'/    ' /|'\|  '   | '\|      ' |\_/;/\'|   '  | |    ' |_|  '   |‚|       |/     /|  
+\033[1;35m|    ' |/ '/     /| '/      ' /|\|'|/  /     /|°|  '   |¯|'     |‚|;;:    |\     \|  
+\033[1;36m|\___\'|    ' |/‘ |     '  |/      |___|/  |'     |¯|    ' |‚|____|\'\     \°
+\033[1;37m'\|'¯' ¯||\___\‘ |\____\      |'¯' ¯|   |\___\'| '°   |‚|'¯ ¯ |  \|___|”
+\033[1;38m  ¯¯¯ '\|'¯' ¯|' '\|'¯' ¯¯|      ¯¯¯°   '\|'¯'  |/___/|‚ ¯¯¯     |'¯'¯| 
+\033[1;39m           ¯¯¯''   ¯¯¯¯”‚                  ¯¯|'¯'  ¯|/”            ¯¯¯ 
+\033[1;40m   ‘            '            '        ' ‘             ¯¯¯°         '  ‘ 
 \033[1;32m--------------------------------------------------
 {+}\033[1;32mCREATED BY     : \033[1;32MOHAMMAD UMAR\033[1;32m
 {+}\033[1;32mFACEBOOK       : \033[1;32MOHAMMAD UMAR\033[1;32m
@@ -253,7 +256,7 @@ def public():
 		print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
 		linex()
 		input(' Press enter to back ')
-		os.system('python UMAR.py')
+		os.system('python UMAR-XT.py')
 	except requests.exceptions.ConnectionError:
 		exit(f' No internet connection')
 	except (KeyError,IOError):
@@ -340,7 +343,7 @@ def auto_file(cookies,access_token):
     print(' Total ids: '+str(len(total)))
     print('\n')
     input(' Press enter to back ')
-    os.system('python UMAR.py')
+    os.system('python UMAR-XT.py')
 def iamBadBoy(exid,cookies,access_token,sf):
     try:
         global total,loop
@@ -391,7 +394,7 @@ def manual_file(cookies,access_token):
     print(' Total ids grabbed: '+str(len(ids)))
     print(' Ids file saved in: '+sf)
     input(' \nPress enter to back ')
-    os.system('python UMAR.py')
+    os.system('python UMAR-XT.py')
 def sids():
     os.system('clear')
     print(logo)
@@ -417,7 +420,7 @@ def sids():
     print(' New file saved as: '+new_save)
     print(50*'-')
     input('\n Press enter to back ')
-    os.system('python UMAR.py')
+    os.system('python UMAR-XT.py')
 def remove_dub():
     os.system('clear')
     print(logo)
@@ -434,7 +437,7 @@ def remove_dub():
         print(' Result file saved as: '+save_file)
         print(50*'-')
         input('\n Press enter to back ')
-        os.system('python UMAR.py')
+        os.system('python UMAR-XT.py')
     except FileNotFoundError:
         print(' File not found.')
 def login():
@@ -450,7 +453,7 @@ def login():
         open("fb_cookies.txt","w").write(cookies)
         print(' Logged in successfully ...')
         time.sleep(1)
-        os.system('python UMAR.py')
+        os.system('python UMAR-XT.py')
     except KeyError:
         print('\n Inavlid cookies, try another cookies')
         exit()
@@ -522,7 +525,7 @@ def menu():
 		print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
 		linex()
 		input(' Press enter to back ')
-		os.system('python UMAR.py')
+		os.system('python UMAR-XT.py')
 	elif xd in ['2','02']:
 		create_file_login()
 	elif xd in ['3','03']:
@@ -602,7 +605,7 @@ def pak():
 		print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
 		linex()
 		input(' Press enter to back ')
-		os.system('python UMAR.py')
+		os.system('python UMAR-XT.py')
 def bd():
 		user=[]
 		clear()
@@ -639,7 +642,7 @@ def bd():
 		print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
 		linex()
 		input(' Press enter to back ')
-		os.system('python UMAR.py')
+		os.system('python UMAR-XT.py')
 def gmail():
 		os.system('rm -rf .re.txt')
 		clear()
@@ -712,7 +715,7 @@ def gmail():
 		print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
 		linex()
 		input(' Press enter to back ')
-		os.system('python UMAR.py')
+		os.system('python UMAR-XT.py')
 
 def ffb(ids,names,passlist):
 	global loop,oks,cps
